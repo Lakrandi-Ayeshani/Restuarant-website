@@ -10,7 +10,7 @@ export const Nav = styled.nav`
     font-weight: 700;
     `;
 export const NavLink = styled(Link)`
-    color: #fff;
+    color: yellow;
     font-size: 2rem;
     display: flex;
     align-items: center;

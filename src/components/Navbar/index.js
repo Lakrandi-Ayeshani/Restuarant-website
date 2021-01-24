@@ -5,7 +5,7 @@
      return (
          <>
              <Nav>
-                 <NavLink to = '/'>yummy rice</NavLink>
+                 <NavLink to = '/'>FOOd KINDA</NavLink>
                  <NavIcon onClick= {toggle}>
                      <p>Menu</p>
                      <Bars />
