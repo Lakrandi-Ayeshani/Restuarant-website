@@ -4,7 +4,9 @@ import {FaFacebook,
         FaYoutube,
         FaTwitter,
         FaLinkedin,
-        FaUtensils} from 'react-icons/fa';
+        FaUtensils,
+        FaGit,
+        FaGithub} from 'react-icons/fa';
 import {FooterContainer,
         FooterWrap,
         SocialIconLink,
@@ -22,34 +24,34 @@ function Footer() {
                         <SocialLogo to ="/">Food Kinda... <FaUtensils /></SocialLogo>
                         <SocialIcons>
 
-                            <SocialIconLink href= "/" target="_blank" 
-                            aria-label = "Facebook" 
-                            rel="noopener noreferrer">
-                                <FaFacebook />
-                            </SocialIconLink>
+                            <a href= "https://m.facebook.com/lakrandi.ayeshani.5" target="_blank">
+                                <SocialIconLink  aria-label = "Facebook" rel="noopener noreferrer">
+                                    <FaFacebook />
+                                </SocialIconLink>
+                            </a>
 
-                            <SocialIconLink href= "/" target="_blank" 
-                            aria-label = "Instagram" 
-                            rel="noopener noreferrer">
-                                <FaInstagram />
-                            </SocialIconLink>
+                            <a href= "https://www.instagram.com/ayeshani_dissanayake/" target="_blank" >
+                                <SocialIconLink aria-label = "Instagram" rel="noopener noreferrer">
+                                    <FaInstagram />
+                                </SocialIconLink>
+                            </a>
 
-                            <SocialIconLink href= "/" target="_blank" 
-                            aria-label = "Linkedin" 
-                            rel="noopener noreferrer">
-                                <FaLinkedin />
-                            </SocialIconLink>
+                            <a target="_blank" href= "https://www.linkedin.com/in/lakrandi-ayeshani-732677180/" >
+                                <SocialIconLink   aria-label = "Linkedin" rel="noopener noreferrer">
+                                    <FaLinkedin />
+                                </SocialIconLink>
+                            </a>
+
+                            <a target="_blank" href= "https://github.com/Lakrandi-Ayeshani" >
+                                <SocialIconLink aria-label = "Twitter" rel="noopener noreferrer">
+                                    <FaGithub />
+                                </SocialIconLink>
+                            </a>
 
                             <SocialIconLink href= "/" target="_blank" 
                             aria-label = "Youtube" 
                             rel="noopener noreferrer">
                                 <FaYoutube />
-                            </SocialIconLink>
-
-                            <SocialIconLink href= "/" target="_blank" 
-                            aria-label = "Twitter" 
-                            rel="noopener noreferrer">
-                                <FaTwitter />
                             </SocialIconLink>
                         
                         </SocialIcons>
